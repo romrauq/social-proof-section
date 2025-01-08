@@ -52,7 +52,6 @@ body {
 	align-items: center;
 	font-weight: 700;
 	color: hsl(300, 43%, 22%);
-	display: flex;
 	width: 70%;
 	padding: 15px 0 15px 20px;
 	margin: 0 0 20px 0;
@@ -71,10 +70,6 @@ body {
 .stars-row {
 	margin: 0 20px 0 0;
 }
-/* .star-icon {
-} */
-/* .rating-text {
-} */
 .bottom-row {
 	display: flex;
 	justify-content: space-between;
@@ -87,10 +82,8 @@ body {
 	padding: 30px;
 	height: fit-content;
 	background-color: hsl(300, 43%, 22%);
-	border-radius: 5px;
+	border-radius: 10px;
 }
-/* .user-column-1 {
-} */
 .user-column-2 {
 	margin: 15px 0 0 0;
 }
@@ -119,7 +112,7 @@ body {
 	color: hsl(303, 10%, 53%);
 }
 .testimonial-text {
-	line-height: 20px;
+	line-height: 22px;
 }
 .attribution {
 	font-size: 11px;
@@ -127,4 +120,83 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 475px) {
+	.main-container {
+		margin: auto;
+		width: 90%;
+	}
+	.top-row {
+		display: flex;
+		flex-direction: column;
+	}
+	.left-column {
+		flex: 1;
+	}
+	.heading-text {
+		font-size: 38px;
+		width: 70%;
+		margin: 50px auto 20px;
+		text-align: center;
+	}
+	.desctiption-text {
+		color: hsl(303, 10%, 53%);
+		font-size: 18px;
+		text-align: center;
+		font-weight: 500;
+		line-height: 25px;
+		width: 90%;
+		margin: 0 auto 40px;
+	}
+	.right-column {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+	.rating-row-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		width: 100%;
+		padding: 15px 0 15px 20px;
+		margin: 0 0 20px 0;
+		border-radius: 10px;
+	}
+	.rating-row-div-1 {
+		margin: 0 0 0 0;
+	}
+	.rating-row-div-2 {
+		margin: 0 0 0 0;
+	}
+	.rating-row-div-3 {
+		margin: 0 0 0 0;
+	}
+	.bottom-row {
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 20px;
+	}
+	.user-column {
+		font-size: 18px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.user-column-2 {
+		margin: 0 0 0 0;
+	}
+	.user-column-3 {
+		margin: 0 0 50px 0;
+	}
+	.user-text-column {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+	.testimonial-text {
+		line-height: 24px;
+	}
 }
