@@ -1,1 +1,129 @@
-									
+@font-face {
+	font-family: League Spartan;
+	src: url("../fonts/LeagueSpartan-VariableFont_wght.ttf");
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.main-container {
+	font-family: League Spartan;
+	font-size: 15px;
+	margin: auto;
+	width: 65%;
+}
+.top-row {
+	display: flex;
+	margin: 0 0 50px 0;
+}
+.left-column {
+	flex: 1;
+}
+.heading-text {
+	font-size: 48px;
+	color: hsl(300, 43%, 22%);
+	width: 50%;
+	margin: 0 0 20px 0;
+}
+.desctiption-text {
+	color: hsl(303, 10%, 53%);
+	font-weight: 500;
+	line-height: 25px;
+	width: 55%;
+}
+.right-column {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+}
+.rating-row-div {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	color: hsl(300, 43%, 22%);
+	display: flex;
+	width: 70%;
+	padding: 10px 20px;
+	margin: 0 0 20px 0;
+	background-color: hsl(300, 24%, 96%);
+	border-radius: 5px;
+}
+.rating-row-div-1 {
+	margin: 0 0 0 40px;
+}
+.rating-row-div-2 {
+	margin: 0 0 0 80px;
+}
+.rating-row-div-3 {
+	margin: 0 0 0 120px;
+}
+.stars-row {
+	margin: 0 20px 0 0;
+}
+/* .star-icon {
+} */
+/* .rating-text {
+} */
+.bottom-row {
+	display: flex;
+	justify-content: space-between;
+}
+.user-column {
+	color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+	padding: 30px;
+	height: fit-content;
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 5px;
+}
+/* .user-column-1 {
+} */
+.user-column-2 {
+	margin: 15px 0 0 0;
+}
+.user-column-3 {
+	margin: 30px 0 0 0;
+}
+.user-info-row {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin: 0 0 20px 0;
+}
+.profile-image {
+	border-radius: 50%;
+	width: 40px;
+}
+.user-text-column {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.user-name {
+	font-weight: 500;
+}
+.user-status {
+	color: hsl(303, 10%, 53%);
+}
+.testimonial-text {
+	line-height: 20px;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
